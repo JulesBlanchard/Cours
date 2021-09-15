@@ -16,6 +16,14 @@ div {
 body {
 background-image:url(https://img.freepik.com/photos-gratuite/concept-texture-fond-materiau-raye-beton_53876-31751.jpg?size=626&ext=jpg);
 }
+p { 
+	font-size:20px
+}
+
+ul{
+	font-size:20px
+}
+
 
 #solol {
    width: 200px;
