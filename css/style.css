@@ -5,8 +5,10 @@
 
 
 */
-h1 {color:black;
-    text-shadow: 2px 2px 9px orange; text-align:center;
+h1 {
+    color:black; text-shadow: 2px 2px 9px orange; text-align:center;
     }
     
-   div {text-align:center}
+   div {
+       text-align:center
+}
