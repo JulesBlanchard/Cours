@@ -30,7 +30,6 @@ ul{
 
 #solol {
    	width: 350px;
-	position: relative;
 	filter: drop-shadow(0 0mm 2mm rgb(160, 0, 210));
     	float: right;
 }        
