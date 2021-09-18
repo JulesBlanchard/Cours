@@ -5,7 +5,7 @@
 
 
 */
-h1 {
+        h1 {
     color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
     font-size:90px;
     }
@@ -29,4 +29,14 @@ ul{
    	width: 350px;
 	position: relative;
     left: 400px;
-}
+}       
+ 
+#resume {
+  width: 1200px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 3;
+  font-size:20px;
+  color: #C900FF;
+  box-shadow: 0 5px 30px 0 rgba(209, 0, 255, 0.5), 0 7px 30px 0 rgba(209, 0, 255, 0.5);
+} 
