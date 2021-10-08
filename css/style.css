@@ -63,8 +63,8 @@ ul{
     }
     
  td {
-	border : solid 1px #FF5D00; 
-    border-radius : 0%; /*0 10px 20px 40px;*/ /*pour mettre espace entre les cases*/
+    border : solid 1px #FF5D00; 
+    border-radius :20px 20px 20px 20px;
     width: 40px;
     height: 30px;
     padding: 10px;
