@@ -55,11 +55,11 @@ ul{
  }  
  
  table {
-	border : solid 2px #D100FF;
+    border : solid 2px #D100FF;
     font-size: 20px;
- 	width: 80%;
+    width: 50%;
     color:black;
-	margin:30px;
+    margin-bottom:30px;
     }
     
  td {
