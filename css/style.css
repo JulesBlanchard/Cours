@@ -5,7 +5,7 @@
 
 
 */
-h1 {
+ h1 {
     color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
     font-size:90px;
 }
@@ -55,15 +55,16 @@ ul{
  }  
  
  table {
-    border : solid 2px #D100FF;
+	border : solid 2px #D100FF;
     font-size: 20px;
-    width: 50%;
+ 	width: 50%;
     color:black;
-    margin-bottom:30px;
+	margin-bottom:30px;
+    box-shadow:0 0px 20px 00px #FFFFFF, 18px 18px 10px 0px #000000;
     }
     
  td {
-    border : solid 1px #FF5D00; 
+	border : solid 1px #FF5D00; 
     border-radius :20px 20px 20px 20px;
     width: 40px;
     height: 30px;
@@ -73,6 +74,7 @@ td:hover {background:#13FF00;}
 
 caption{
   text-shadow: 0 0 3px #FF0000;
+  margin-bottom:10px;
 }
 p::selection {
   color: red;
