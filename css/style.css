@@ -14,6 +14,7 @@ div, #resume {
       		filter: drop-shadow(0 0 0.85rem crimson);
       		text-align:center
 }
+#resume:hover{background:white;}
 
 body {
 	background-image:url(https://img.freepik.com/photos-gratuite/concept-texture-fond-materiau-raye-beton_53876-31751.jpg?size=626&ext=jpg);
@@ -52,3 +53,33 @@ ul{
 	color: white;
 	text-shadow: 2px 3px 2px black, 0 0 25px #0027FF, 0 0 5px darkblue;
  }  
+ 
+ table {
+	border : solid 2px #D100FF;
+    font-size: 20px;
+ 	width: 80%;
+    color:black;
+	margin:30px;
+    }
+    
+ td {
+	border : solid 1px #FF5D00; 
+    border-radius : 0%; /*0 10px 20px 40px;*/ /*pour mettre espace entre les cases*/
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    }
+td:hover {background:#13FF00;}    
+
+caption{
+  text-shadow: 0 0 3px #FF0000;
+}
+p::selection {
+  color: red;
+  background: yellow;
+}
+ 
+div::selection {
+  color: red;
+  background: yellow;
+}
