@@ -11,12 +11,12 @@
 			}
     
 #resume {
-      		filter: drop-shadow(0 0 0.85rem crimson);
+      		filter: drop-shadow(0 0 0.70rem crimson);
       		text-align:center
 			  }
 #resume:hover{
 			  background:white;
-              }
+              box-shadow: 0 0 20px #17FF00;}
 
 body {
 	background-image:url(https://img.freepik.com/photos-gratuite/concept-texture-fond-materiau-raye-beton_53876-31751.jpg?size=626&ext=jpg);
@@ -35,7 +35,7 @@ ul{
 #solol {
    	width: 350px;
 	filter: drop-shadow(0 0mm 2mm rgb(160, 0, 210));
-    	float: right;
+    float: right;
        
 		}        
  
@@ -45,7 +45,7 @@ ul{
   	margin-right: 30px;
   	margin-left: 30px;
   	padding: 15px;
-  	border: 3px solid black;
+  	border: 2px solid black;
   	font-size:20px;
   	color: #2C0444;
   	box-shadow: 0 5px 30px 0 rgba(209, 0, 255, 0.5), 0 7px 30px 0 rgba(209, 0, 255, 0.5);
@@ -103,7 +103,31 @@ div{
     text-align:center;
     }
                                
-iframe{float:left;}
+iframe{
+		float:left;
+        border:solid 2px #A600FF;
+		}
 #videoTexte{color: white;
   			text-shadow: 2px 2px 4px #8700FF;
 			font-size:25px;}
+
+.bordershadow {
+line-height:70px;
+text-align:center;
+border:2px solid #dd;
+border-radius: 3px;
+box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+transition: all 200ms ease-out;
+}
+.bordershadow:hover {
+box-shadow: 0 0 20px #17FF00;
+}
+table:hover {
+box-shadow: 0 0 20px #17FF00;
+}
+h1:hover {
+box-shadow: 0 0 20px #17FF00;
+}
+#solol:hover {
+box-shadow: 0 0 20px #F0FF00;
+}
