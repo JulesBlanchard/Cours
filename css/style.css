@@ -6,13 +6,11 @@
 
 */
  h1 {
-	 color:black; 
-   	 text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00;
-	 text-align:center;
-    	 font-size:90px;
+    		color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
+    		font-size:90px;
 			}
     
-div, #resume {
+#resume {
       		filter: drop-shadow(0 0 0.85rem crimson);
       		text-align:center
 			  }
@@ -38,6 +36,7 @@ ul{
    	width: 350px;
 	filter: drop-shadow(0 0mm 2mm rgb(160, 0, 210));
     	float: right;
+       
 		}        
  
 #resume {
@@ -56,6 +55,7 @@ ul{
 	font-size:25px;
 	color: white;
 	text-shadow: 2px 3px 2px black, 0 0 25px #0027FF, 0 0 5px darkblue;
+    clear:both;
      }  
  
  table {
@@ -74,8 +74,7 @@ ul{
     height: 30px;
     padding: 10px;
      }
-td:hover {
-	background:#6BFFFD;
+td:hover {background:#6BFFFD;
 		  }    
 td::selection{color:red;
 				background:yellow;
@@ -96,7 +95,15 @@ div::selection {
   				color: red;
   				background: yellow;
 				}
-caption::selection{
-	color:yellow;
-	background:purple;
+caption::selection{color:yellow;
+				   background:purple;
 					}
+div{
+	filter: drop-shadow(0 0 0.85rem crimson);
+    text-align:center;
+    }
+                               
+iframe{float:left;}
+#videoTexte{color: white;
+  			text-shadow: 2px 2px 4px #8700FF;
+			font-size:25px;}
