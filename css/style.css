@@ -6,35 +6,37 @@
 
 */
  h1 {
-    color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
-    font-size:90px;
-}
+    		color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
+    		font-size:90px;
+			}
     
 div, #resume {
       		filter: drop-shadow(0 0 0.85rem crimson);
       		text-align:center
-}
-#resume:hover{background:white;}
+			  }
+#resume:hover{
+			  background:white;
+              }
 
 body {
 	background-image:url(https://img.freepik.com/photos-gratuite/concept-texture-fond-materiau-raye-beton_53876-31751.jpg?size=626&ext=jpg);
 	padding:20px;
-}
+     }
 
 p { 
 	font-size:20px
-}
+   }
 
 ul{
 	font-size:20px
-}
+   }
 
 
 #solol {
    	width: 350px;
 	filter: drop-shadow(0 0mm 2mm rgb(160, 0, 210));
     	float: right;
-}        
+		}        
  
 #resume {
 	margin-top: 30px;
@@ -46,13 +48,13 @@ ul{
   	font-size:20px;
   	color: #2C0444;
   	box-shadow: 0 5px 30px 0 rgba(209, 0, 255, 0.5), 0 7px 30px 0 rgba(209, 0, 255, 0.5);
-} 
+         } 
 
 #ttt {
 	font-size:25px;
 	color: white;
 	text-shadow: 2px 3px 2px black, 0 0 25px #0027FF, 0 0 5px darkblue;
- }  
+     }  
  
  table {
 	border : solid 2px #D100FF;
@@ -60,8 +62,8 @@ ul{
  	width: 50%;
     color:black;
 	margin-bottom:30px;
-    box-shadow:0 0px 20px 00px #FFFFFF, 18px 18px 10px 0px #000000;
-    }
+    box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
+        }
     
  td {
 	border : solid 1px #FF5D00; 
@@ -69,19 +71,28 @@ ul{
     width: 40px;
     height: 30px;
     padding: 10px;
-    }
-td:hover {background:#6BFFFD;}    
-
+     }
+td:hover {background:#6BFFFD;
+		  }    
+td::selection{color:red;
+				background:yellow;
+			  }
+a::selection{color:red;
+				background:yellow;
+             }				 
 caption{
-  text-shadow: 0 0 3px #FF0000;
-  margin-bottom:10px;
-}
+  		text-shadow: 0 0 3px #FF0000;
+  		margin-bottom:10px;
+        }
 p::selection {
-  color: red;
-  background: yellow;
-}
+  				color: red;
+  				background: yellow;
+ 			  }
  
 div::selection {
-  color: red;
-  background: yellow;
-}
+  				color: red;
+  				background: yellow;
+				}
+caption::selection{color:yellow;
+				   background:purple;
+					}
