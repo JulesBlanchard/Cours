@@ -142,5 +142,7 @@ box-shadow: 0 0 20px #17FF00;
 #bouton:hover {
 box-shadow: 0 0 20px #17FF00;
 }
-#bouton { margin:20px;
+#bouton { 
+	font-size:25px;
+	margin:20px;
 }
