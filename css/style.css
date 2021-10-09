@@ -10,7 +10,11 @@
     		color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
     		font-size:90px;
 			}
-    
+
+#webtoon{
+		text-align:center;
+        }
+
 #resume {
       		filter: drop-shadow(0 0 0.70rem crimson);
       		text-align:center
