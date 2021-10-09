@@ -6,8 +6,10 @@
 
 */
  h1 {
-    		color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; text-align:center;
-    		font-size:90px;
+	 color:black; 
+   	 text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00;
+	 text-align:center;
+    	 font-size:90px;
 			}
     
 div, #resume {
@@ -72,7 +74,8 @@ ul{
     height: 30px;
     padding: 10px;
      }
-td:hover {background:#6BFFFD;
+td:hover {
+	background:#6BFFFD;
 		  }    
 td::selection{color:red;
 				background:yellow;
@@ -93,6 +96,7 @@ div::selection {
   				color: red;
   				background: yellow;
 				}
-caption::selection{color:yellow;
-				   background:purple;
+caption::selection{
+	color:yellow;
+	background:purple;
 					}
