@@ -77,7 +77,10 @@ table {
     	padding: 10px;
 }
 
-td:hover {
+td::hover {
+	background:#6BFFFD;
+}
+tr::hover {
 	background:#6BFFFD;
 }
 
