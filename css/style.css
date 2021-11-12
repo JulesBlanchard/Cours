@@ -117,10 +117,13 @@ caption::selection{
 #imageSung {
   filter: drop-shadow(0 0 0.85rem crimson);
   margin-left: 30px; 
-   height:283px ;
+}
+
+#Ssung {
+  height:283px ;
   width: 500px;
   position: relative;
-	top: 27px;
+  top: 27px;
 }
 
                                
