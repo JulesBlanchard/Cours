@@ -1,10 +1,5 @@
 /* :hover =  quand on passe la souris sur l'element, les propriétés qu'on a mises s'appliquent
    ::selection = lorsqu'on selectionne des éléments, les propriétés (couleurs, background ) s'appliquent
-
-
-
-
-
 */
  h1 {
  	color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; /* couleur du titre en noir, centré, et une ombre sur celui ci */
@@ -15,10 +10,9 @@
 #webtoon{
 	text-align:center;
 }
-
 #resume {
 	filter: drop-shadow(0 0 0.70rem crimson);
-	text-align:center
+	text-align:center;
 }
 
 #resume:hover{
@@ -58,20 +52,21 @@ ul{
   	box-shadow: 0 5px 30px 0 rgba(209, 0, 255, 0.5), 0 7px 30px 0 rgba(209, 0, 255, 0.5);
 } 
 
-#ttt {
+#lienFnac {
 	font-size:25px;
 	color: white;
 	text-shadow: 2px 3px 2px black, 0 0 25px #0027FF, 0 0 5px darkblue;
     	clear:both;
 }  
  
- table {
+table {
 	border : solid 2px #D100FF;
-    	font-size: 20px;
- 	width: 50%;
-    	color:black;
-	margin-bottom:30px;
-    	box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
+  font-size: 16px;
+ 	width: 30%;
+  color:black;
+  box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
+  float: left;
+  margin-right: 100px;
 }
     
  td {
@@ -116,19 +111,31 @@ caption::selection{
 	background:purple;
 }
 
-div{
+#resume{
 	filter: drop-shadow(0 0 0.85rem crimson);
-    	text-align:center;
 }
+#imageSung {
+  filter: drop-shadow(0 0 0.85rem crimson);
+  margin-left: 30px; 
+
+
+}
+#imageSung #Ssung {
+   height:283px ;
+  width: 500px;
+  position: relative;
+	top: 27px;
+}
+
                                
 iframe{
 	float:left;
-        border:solid 2px #A600FF;
+  border:solid 2px #A600FF;
 }
 
 #videoTexte{
 	color: white;
-  	text-shadow: 2px 2px 4px #8700FF;
+  text-shadow: 2px 2px 4px #8700FF;
 	font-size:25px;
 }
 
@@ -155,9 +162,9 @@ b:hover {
 
 #solol:hover {
 	box-shadow: 0 0 20px #F0FF00;
-}
+} 
 
-img:hover {
+#Ssung:hover {
 	box-shadow: 0 0 20px #17FF00;
 }
 
