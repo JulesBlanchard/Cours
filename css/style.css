@@ -80,9 +80,6 @@ table {
 td::hover {
 	background:#6BFFFD;
 }
-tr::hover {
-	background:#6BFFFD;
-}
 
 td::selection{
 	color:red;
