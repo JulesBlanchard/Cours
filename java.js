@@ -6,9 +6,9 @@
 */
 
 let bouton = document.getElementById("bouton"); 
-bouton.style.fontSize = "25px"; 
-bouton.style.color = "#C500FF"; 
-var mode = "caché";
+/*bouton.style.fontSize = "25px"; 
+bouton.style.color = "#C500FF"; */
+var mode = "ouvert";
 function myFunction(){
   if(mode =="caché"){
     document.getElementById("bouton").innerHTML="Spoiler Alert !!!";
