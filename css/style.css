@@ -7,10 +7,22 @@
 
 #webtoon{
 	text-align:center;
+  transition: 300ms;
 }
 #resume {
 	filter: drop-shadow(0 0 0.70rem crimson);
 	text-align:center;
+  transition: 300ms;
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	margin-right: 30px;
+  	margin-left: 30px;
+  	padding: 15px;
+  	border: 2px solid black;
+  	font-size:20px;
+  	color: #2C0444;
+  	box-shadow: 0 5px 30px 0 rgba(209, 0, 255, 0.5), 0 7px 30px 0 rgba(209, 0, 255, 0.5);
+
 }
 
 #resume:hover{
@@ -32,26 +44,17 @@ p, ul {
 #solol {
 	width: 350px;
 	filter: drop-shadow(0 0mm 2mm rgb(160, 0, 210));
-	float: right;  
+	float: right; 
+  transition: 300ms; 
 }        
  
-#resume {
-	margin-top: 30px;
-  	margin-bottom: 30px;
-  	margin-right: 30px;
-  	margin-left: 30px;
-  	padding: 15px;
-  	border: 2px solid black;
-  	font-size:20px;
-  	color: #2C0444;
-  	box-shadow: 0 5px 30px 0 rgba(209, 0, 255, 0.5), 0 7px 30px 0 rgba(209, 0, 255, 0.5);
-} 
 
 #lienFnac {
 	font-size:25px;
 	color: white;
 	text-shadow: 2px 3px 2px black, 0 0 25px #0027FF, 0 0 5px darkblue;
   clear:both;
+  transition: 300ms;
 }  
  
 table {
@@ -61,7 +64,7 @@ table {
   color:black;
   box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
   background-image:url(http://ekladata.com/kbwjCxUSAKzUrZ5JLEVXU5djYkg.png);
-
+  transition: 300ms;
 
 }
     
@@ -120,6 +123,7 @@ caption::selection{
   float:left; 
   margin-top: 40px;
   margin-right: 200px;
+  transition: 300ms;
  
 }
 
@@ -133,6 +137,7 @@ iframe{
   border:solid 2px #A600FF;
   margin-right:30px;
   margin-bottom: 30px;
+  transition: 300ms;
 }
 
 #videoTexte {
@@ -183,6 +188,7 @@ b:hover {
 #bouton { 
 	font-size:25px;
 	margin:20px;
+  transition: 300ms;
 
 }
 #tablePersos {
