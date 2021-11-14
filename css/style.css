@@ -130,6 +130,8 @@ caption::selection{
 #Ssung {
   height:283px ;
   width: 500px;
+	transition: 300ms;
+	
 }
                               
 iframe{
