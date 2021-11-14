@@ -1,0 +1,7 @@
+hr { /* ligne de séparation */
+  border: 0; 
+  height: 3px; 
+  background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  margin-top:30px;
+  margin-bottom:30px;
+}
