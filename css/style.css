@@ -1,6 +1,4 @@
-/* :hover =  quand on passe la souris sur l'element, les propriétés qu'on a mises s'appliquent
-   ::selection = lorsqu'on selectionne des éléments, les propriétés (couleurs, background ) s'appliquent
-*/
+
  h1 {
  	color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; /* couleur du titre en noir, centré, et une ombre sur celui ci */
 	text-align:center; /* titre centré */
@@ -18,21 +16,18 @@
 #resume:hover{
 	background:white;
 	box-shadow: 0 0 20px #17FF00;
+  transition: all 400ms ease-out;
 }
 
 body {
+
 	background-image:url(https://img.freepik.com/photos-gratuite/concept-texture-fond-materiau-raye-beton_53876-31751.jpg?size=626&ext=jpg);
 	padding:20px;
 }
 
-p { 
+p, ul { 
 	font-size:20px
 }
-
-ul{
-	font-size:20px
-}
-
 
 #solol {
 	width: 350px;
@@ -56,17 +51,18 @@ ul{
 	font-size:25px;
 	color: white;
 	text-shadow: 2px 3px 2px black, 0 0 25px #0027FF, 0 0 5px darkblue;
-    	clear:both;
+  clear:both;
 }  
  
 table {
 	border : solid 2px #D100FF;
-  	font-size: 16px;
+  font-size: 16px;
  	width: 30%;
-  	color:black;
-  	box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
-  	float: left;
-  	margin-right: 100px;
+  color:black;
+  box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
+  background-image:url(http://ekladata.com/kbwjCxUSAKzUrZ5JLEVXU5djYkg.png);
+
+
 }
     
  td {
@@ -77,18 +73,22 @@ table {
     	padding: 10px;
 }
 
-td::hover {
+td:hover { /* lorsqu'on survole avec la souris une colonne, elle prend la couleur qu'on a mis (bleu ici) */
 	background:#6BFFFD;
+  transition: all 125ms ease-out;
 }
 
-td::selection{
+td::selection{ /* lorsqu'on selectionne du texte dans les colones, le fond et la couleur du texte prennent les couleurs qu'on a attribué */
 	color:red;
 	background:yellow;
 }
 
-a::selection{
+a::selection{ /* lorsqu'on selectionne du texte, le fond et la couleur du texte prennent les couleurs qu'on a attribué */
 	color:red;
 	background:yellow;
+}
+a:visited { /* change la couleur du lien une fois qu'il a été visité */
+  color: #ff00d4; 
 }
 
 caption{
@@ -116,24 +116,26 @@ caption::selection{
 }
 #imageSung {
   filter: drop-shadow(0 0 0.85rem crimson);
-  margin-left: 30px; 
-  position: relative;
-  top: 27px;
+  position : relative;
+  float:left; 
+  margin-top: 40px;
+  margin-right: 200px;
+ 
 }
 
 #Ssung {
   height:283px ;
   width: 500px;
-  
 }
-
-                               
+                              
 iframe{
 	float:left;
   border:solid 2px #A600FF;
+  margin-right:30px;
+  margin-bottom: 30px;
 }
 
-#videoTexte{
+#videoTexte {
 	color: white;
   text-shadow: 2px 2px 4px #8700FF;
 	font-size:25px;
@@ -142,7 +144,7 @@ iframe{
 .bordershadow {
 	line-height:70px;
 	text-align:center;
-	border:2px solid #dd;
+	border: 3px dashed #dd0000;
 	border-radius: 3px;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 	transition: all 200ms ease-out;
@@ -152,27 +154,40 @@ iframe{
 	box-shadow: 0 0 20px #17FF00;
 }
 
+
 table:hover {
 	box-shadow: 0 0 20px #17FF00;
+  transition: all 400ms ease-out;
 }
 
 b:hover {
 	box-shadow: 0 0 20px #17FF00;
+  transition: all 400ms ease-out;
 }
 
 #solol:hover {
 	box-shadow: 0 0 20px #F0FF00;
+  transition: all 400ms ease-out;
 } 
 
 #Ssung:hover {
 	box-shadow: 0 0 20px #17FF00;
+  transition: all 400ms ease-out;
 }
 
 #bouton:hover {
 	box-shadow: 0 0 20px #17FF00;
+  transition: all 400ms ease-out;
 }
 
 #bouton { 
 	font-size:25px;
 	margin:20px;
+
+}
+#tablePersos {
+   top: 27px;
+}
+.clear {
+  clear: both;
 }
