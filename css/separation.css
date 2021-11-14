@@ -5,3 +5,11 @@ hr { /* ligne de séparation */
   margin-top:30px;
   margin-bottom:30px;
 }
+
+#hr2 {
+ border: 0; 
+  height: 3px; 
+  background-image: linear-gradient(to right, #ff0000, #ff9900, #ffee00, #00ff0d, #00a2ff, #e100ff);
+  margin-top:30px;
+  margin-bottom:30px; 
+}
