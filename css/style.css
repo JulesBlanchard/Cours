@@ -27,7 +27,7 @@
 
 #resume:hover{
 	background:white;
-	box-shadow: 0 0 20px #17FF00;
+	box-shadow: 0 0 20px rgb(234, 0, 255);
   transition: all 400ms ease-out;
 }
 
@@ -183,7 +183,7 @@ b:hover {
 }
 
 #bouton:hover {
-	box-shadow: 0 0 20px #17FF00;
+	box-shadow: 0 0 20px rgb(255, 251, 0);
   transition: all 400ms ease-out;
 }
 
