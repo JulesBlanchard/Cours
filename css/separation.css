@@ -1,4 +1,4 @@
-hr { /* ligne de séparation */
+.hr1 { /* ligne de séparation */
   border: 0; 
   height: 3px; 
   background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
