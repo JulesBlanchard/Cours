@@ -1,1 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-300px);
+    height: 300px;
+    width: 390px;
+    transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+    border-radius: 0% 0% 100% 50%;
+}
+
+.navbar.nav-open {
+    transform: translateX(0px);
+    border-radius: 4% 20% 20% 4%;
+	 background:linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  
+}
+
+.navbar .menu-btn {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    padding: 0;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.navbar .menu-btn .line {
+    padding: 0;
+    width: 30px;
+    background: rgb(255, 0, 0);
+    height: 2px;
+    margin: 5px 0;
+    transition: all 700ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navbar .menu-btn .line.line--1 {
+    width: 39px;
+    transform: rotate(0) translateY(0);
+}
+
+.navbar .menu-btn .line.line--1.line-cross {
+    width: 30px;
+    transform: rotate(45deg) translateY(10px);
+	 background: rgba(0,0,0,0.6);
+   margin-top:9px;
+}
+
+.navbar .menu-btn .line.line--2 {
+    width: 30px;
+    transform: translateX(0);
+}
+
+.navbar .menu-btn .line.line--2.line-fade-out {
+    width: 26px;
+    transform: translate(30px);
+    opacity: 0;
+}
+
+.navbar .menu-btn .line.line--3 {
+    width: 22px;
+    transform: rotate(0) translateY(0);
+}
+
+.navbar .menu-btn .line.line--3.line-cross {
+    width: 30px;
+    transform: rotate(-45deg) translateY(-10px);
+	 background: rgba(0,0,0,0.6);
+   margin-top:6px;
+}
+
+.navbar .nav-links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navbar .nav-links.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.navbar .nav-links .link {
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.9);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navbar .nav-links .link:hover {
+    color: rgb(21, 255, 0);
+    transition:300ms;
+}
 
