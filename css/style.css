@@ -3,6 +3,7 @@
  	color:black; text-shadow: 0 0 10px #C900FF, 0 0 20px #FF9E00; /* couleur du titre en noir, centré, et une ombre sur celui ci */
 	text-align:center; /* titre centré */
  	font-size:90px; /* augmentation de la taille de la police */
+  margin-bottom:200px;
 }
 
 #webtoon{
@@ -59,20 +60,19 @@ p, ul {
  
 table {
 	border : solid 2px #D100FF;
-  font-size: 16px;
- 	width: 30%;
+  font-size: 20px;
+ 	width: 15%;
   color:black;
   box-shadow:0px 0px 70px 0px #FFFFFF, 18px 18px 10px 0px #000000;
-  background-image:url(http://ekladata.com/kbwjCxUSAKzUrZ5JLEVXU5djYkg.png);
+  background-image:url(http://ekladata.com/kbwjCxUSAKzUrZ5JLEVXU5djYkg.png);/* ajout d'une image png de fond pour le tableau */
   transition: 300ms;
 
 }
     
  td {
-	border : solid 1px #FF5D00; 
+	border : solid 1px #FF5D00;/* contour des colones*/
     	border-radius :20px 20px 20px 20px;
-    	width: 40px;
-    	height: 30px;
+ 
     	padding: 10px;
 }
 
@@ -99,7 +99,7 @@ caption{
   	margin-bottom:10px;
 }
 
-p::selection {
+p::selection { 
   	color: red;
   	background: yellow;
 }
@@ -130,8 +130,7 @@ caption::selection{
 #Ssung {
   height:283px ;
   width: 500px;
-	transition: 300ms;
-	
+  transition: 300ms;
 }
                               
 iframe{
