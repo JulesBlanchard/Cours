@@ -1,4 +1,16 @@
-.hr1 { /* ligne de séparation */
+#hr1 {
+  border: 0; 
+  height: 3px; 
+  background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  margin-top:70px;
+  margin-bottom:30px;
+}
+
+
+
+
+
+hr {
   border: 0; 
   height: 3px; 
   background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
